@@ -1,0 +1,42 @@
+body {
+	background-color: #222;
+}
+
+.accordion {
+  overflow: hidden;
+}
+
+.accordion a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px;
+  border-bottom: 1px solid #555;
+	background-color: #222;
+	text-align: center;
+}
+
+.accordion a:hover {
+  background-color: #444;
+}
+
+.accordion .content {
+  max-height: 0;
+  overflow: hidden;
+  background-color: #333;
+  color: #fff;
+}
+
+.accordion .content p {
+  margin: 0;
+}
+
+.accordion .accordion-item.active a {
+  background-color: #222;
+}
+
+.accordion .accordion-item.active .content {
+	padding: 2rem;
+  max-height: 500px;
+}
