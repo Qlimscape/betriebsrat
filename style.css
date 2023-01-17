@@ -6,6 +6,13 @@ body {
   overflow: hidden;
 }
 
+h1 {
+	color: #fff;
+	text-align: center;
+}
+
+
+
 .accordion a {
   display: block;
   text-decoration: none;
