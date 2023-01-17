@@ -6,7 +6,7 @@ body {
   overflow: hidden;
 }
 
-h1 {
+h1, h2 {
 	color: #fff;
 	text-align: center;
 }
@@ -37,6 +37,7 @@ h1 {
 
 .accordion .content p {
   margin: 0;
+	text-align: center;
 }
 
 .accordion .accordion-item.active a {
