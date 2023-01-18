@@ -1,10 +1,18 @@
 body {
 	background-color: #222;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .accordion {
   overflow: hidden;
+	max-width: 800px;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	border: 1px solid #555;
 }
 
 h1 {
@@ -16,6 +24,7 @@ h1 {
 h2 {
 	color: #fff;
 	text-align: center;
+	text-decoration: underline dotted;
 }
 
 
@@ -37,14 +46,15 @@ h2 {
 
 .accordion .content {
   max-height: 0;
+	max-width: 800px;
   overflow: hidden;
   background-color: #333;
   color: #fff;
+	text-align: justify;
 }
 
 .accordion .content p {
   margin: 0;
-	text-align: center;
 }
 
 .accordion .accordion-item.active a {
