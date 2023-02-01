@@ -63,5 +63,5 @@ h2 {
 
 .accordion .accordion-item.active .content {
 	padding: 2rem;
-  max-height: 500px;
+  max-height: 1500px;
 }
